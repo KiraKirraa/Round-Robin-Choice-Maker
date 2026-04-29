@@ -93,7 +93,7 @@ int main(int argc, char* argv[]){
     // Print winners
     printf("\nWinners:\n");
     for(int i = 0; i < num_teams; i++){
-        printf("%d %s\n", (-1*win_counts[largest_indexes[i]]), buff + (largest_indexes[i] * max_name_length));
+        printf("%d: with %d wins, %s", i+1, (-1*win_counts[largest_indexes[i]]), buff + (largest_indexes[i] * max_name_length));
     }
     printf("\nWinners printed\n");
 
