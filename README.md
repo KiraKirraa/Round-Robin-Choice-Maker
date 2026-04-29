@@ -70,9 +70,9 @@ Choice portion done
 Sorted array created
 
 Winners:
-team 1: 2
-team 2: 1
-team 3: 0
+1: with 2 wins, team 1
+2: with 1 wins, team 2
+3: with 0 wins, team 3
 
 Winners printed
 ```
